@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.details {
+    margin-bottom: 50px;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    background-color: $primary;
+    border: 3px solid $secondary;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: $secondary;
+    padding: 15px;
+    color: $primary;
+}
