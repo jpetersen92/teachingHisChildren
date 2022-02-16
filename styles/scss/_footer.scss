@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondary;
+    height: 75px;
+    color: $primary;
+
+    p {
+        margin: 0;
+        font-size: 0.8rem;
+    }
+    .josh {
+        font-size: 0.6rem;
+        margin-top: 5px;
+
+        a {
+            color: $primary
+        }
+    }
+}

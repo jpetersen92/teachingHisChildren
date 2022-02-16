@@ -1,3 +1,60 @@
 $primary: rgb(231, 136, 52);
 $secondary: rgb(148, 65, 45);
-$text: #000;
+$textDark: #000;
+$textLight: #fff;
+
+h2 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: $textDark;
+}
+
+// Styling for SVG section separators
+.custom-shape-divider-top-1645047918 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1645047918 svg {
+    position: relative;
+    display: block;
+    width: calc(169% + 1.3px);
+    height: 70px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1645047918 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1645048002 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1645048002 svg {
+    position: relative;
+    display: block;
+    width: calc(169% + 1.3px);
+    height: 54px;
+}
+
+.custom-shape-divider-bottom-1645048002 .shape-fill {
+    fill: #FFFFFF;
+}

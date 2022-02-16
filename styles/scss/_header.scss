@@ -1,29 +1,24 @@
-body {
-    height: 100vh;
+.hero {
+    height: calc(100vh - 50px);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.details {
-    margin-bottom: 50px;
-    font-size: 1rem;
-    color: rgba(0, 0, 0, 0.5);
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-a {
-    text-decoration: none;
-    color: #000;
-    background-color: $primary;
-    border: 3px solid $secondary;
-    border-radius: 20px;
-    padding: 10px;
-    transition: 0.3s;
-}
+.navContainer {
+    display: flex;
+    margin: 0;
 
-a:hover {
-    background-color: $secondary;
-    padding: 15px;
-    color: $primary;
+    li {
+        margin: 0 20px;
+    }
 }
