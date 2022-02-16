@@ -249,6 +249,10 @@ a {
   color: #000;
 }
 
+.content {
+  padding-top: 65px;
+}
+
 .custom-shape-divider-top-1645047918 {
   position: absolute;
   top: 0;
@@ -262,7 +266,7 @@ a {
   position: relative;
   display: block;
   width: calc(169% + 1.3px);
-  height: 70px;
+  height: 54px;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
@@ -300,6 +304,13 @@ html {
 
 h1 {
   font-weight: 600;
+}
+
+#about, #donations, #contact {
+  color: #fff;
+}
+#about h3, #donations h3, #contact h3 {
+  color: #e78834;
 }
 
 .hero {

@@ -8,3 +8,11 @@ html {
 h1 {
     font-weight: 600;
 }
+
+#about, #donations, #contact {
+    color: $textLight;
+
+    h3 {
+        color: $primary;
+    }
+}

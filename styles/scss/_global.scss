@@ -16,6 +16,10 @@ a {
     color: $textDark;
 }
 
+.content {
+    padding-top: 65px;
+}
+
 // Styling for SVG section separators
 .custom-shape-divider-top-1645047918 {
     position: absolute;
@@ -30,7 +34,7 @@ a {
     position: relative;
     display: block;
     width: calc(169% + 1.3px);
-    height: 70px;
+    height: 54px;
     transform: rotateY(180deg);
 }
 
