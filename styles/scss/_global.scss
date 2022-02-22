@@ -3,6 +3,10 @@ $secondary: rgb(148, 65, 45);
 $textDark: #000;
 $textLight: #fff;
 
+html {
+    scroll-behavior: smooth;
+}
+
 h2 {
     text-align: center;
 }
@@ -17,7 +21,17 @@ a {
 }
 
 .content {
-    padding-top: 65px;
+    padding: 65px 0;
+}
+
+.wrapper {
+    max-width: 1400px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
 }
 
 // Styling for SVG section separators

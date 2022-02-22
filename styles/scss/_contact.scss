@@ -1,5 +1,37 @@
 #contact {
     background-color: $secondary;
     position: relative;
-    height: 500px;
+
+    a {
+        color: $primary;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    i {
+        color: $primary;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        h4 {
+            margin-left: 10px;
+        }
+
+        p {
+            text-align: center;
+            line-height: 1.8rem;
+        }
+    }
+    
+    li:last-of-type {
+        margin: 20px 0 -50px;
+    }
+
 }

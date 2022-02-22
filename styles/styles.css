@@ -236,6 +236,10 @@ html {
   overflow: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h2 {
   text-align: center;
 }
@@ -250,7 +254,17 @@ a {
 }
 
 .content {
-  padding-top: 65px;
+  padding: 65px 0;
+}
+
+.wrapper {
+  max-width: 1400px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+ul {
+  padding: 0;
 }
 
 .custom-shape-divider-top-1645047918 {
@@ -314,7 +328,7 @@ h1 {
 }
 
 .hero {
-  height: calc(100vh - 50px);
+  height: calc(100vh - 80px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -331,17 +345,22 @@ h1 {
   text-align: center;
 }
 
+.smallLogo {
+  height: 80%;
+}
+
 nav {
-  height: 50px;
+  height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 20px;
 }
 
 .navContainer {
@@ -352,12 +371,55 @@ nav {
 }
 .navContainer li {
   margin: 0 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 10px;
+}
+.navContainer li:hover {
+  background-color: #e78834;
+  border-radius: 15px;
 }
 
 #about {
   background-color: #94412d;
   position: relative;
-  height: 500px;
+}
+
+.aboutPictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.aboutPictures img {
+  width: 25%;
+  margin: 0 20px;
+}
+
+.claudiaBio {
+  margin-top: 150px;
+}
+
+.bioContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.bioContainer p {
+  width: 50%;
+  margin-left: 20px;
+}
+.bioContainer img {
+  width: 25%;
+  margin-right: 20px;
 }
 
 #program {
@@ -377,7 +439,38 @@ nav {
 #contact {
   background-color: #94412d;
   position: relative;
-  height: 500px;
+}
+#contact a {
+  color: #e78834;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#contact a:hover {
+  text-decoration: underline;
+}
+#contact i {
+  color: #e78834;
+}
+#contact li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#contact li h4 {
+  margin-left: 10px;
+}
+#contact li p {
+  text-align: center;
+  line-height: 1.8rem;
+}
+#contact li:last-of-type {
+  margin: 20px 0 -50px;
 }
 
 footer {
@@ -405,6 +498,7 @@ footer p {
 footer .josh {
   font-size: 0.6rem;
   margin-top: 5px;
+  position: relative;
 }
 footer .josh a {
   color: #e78834;
